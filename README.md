@@ -43,12 +43,12 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
 
 **PROGRAM**
-
+```
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 Developed by: Tirupathi Jayadeep
 Register Number: 212223240169
 */
-```
+
 module DFlipflop(D,Clock,Q,Qbar);
 input D,Clock;
 output reg Q,Qbar;
