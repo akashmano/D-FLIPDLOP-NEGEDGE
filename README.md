@@ -48,6 +48,7 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 Developed by: Tirupathi Jayadeep
 Register Number: 212223240169
 */
+```
 module DFlipflop(D,Clock,Q,Qbar);
 input D,Clock;
 output reg Q,Qbar;
@@ -58,6 +59,7 @@ begin
 Qbar=~D;
 end
  endmodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/23004426/D-FLIPDLOP-NEGEDGE/assets/144979327/93b7bbc1-f41d-4e26-a171-51914c59c4e9)
